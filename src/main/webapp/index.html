@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Ejemplo de MVC de Jordi</h1>
+        <a href="resources/saludo">Hola mundo</a>
+        
+        <h2>Probando con método POST</h2>
+        <form  action="resources/saludo/nombre" method="post">
+            Nombre: <input type="text" name="nombre" placeholder="Escribe tu nombre aquí"/><br/>
+            <button type="submit">Enviar</button>
+        </form>
+        
+        <h2>Probando con método POST con 2 parámetros</h2>
+        <form  action="resources/saludo/nombre-apellidos" method="post">
+            Nombre: <input type="text" name="nombre" placeholder="Escribe tu nombre aquí"/><br/>
+            Apellidos: <input type="text" name="apellidos" placeholder="Escribe tus apellidos aquí"/><br/>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>

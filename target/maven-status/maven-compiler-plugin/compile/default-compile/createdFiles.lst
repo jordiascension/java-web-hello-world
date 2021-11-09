@@ -1,0 +1,6 @@
+com\area\hello\world\models\Persona.class
+com\area\hello\world\services\PersonaService.class
+com\area\hello\world\resources\JavaEE8Resource.class
+com\area\hello\world\JAXRSConfiguration.class
+com\area\hello\world\controllers\PersonaController.class
+com\area\hello\world\dao\PersonaDao.class
